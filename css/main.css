@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+}
+
+#header
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#container{
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+    width:80%;
+    margin: auto;
+    overflow: auto;
+}
+
+#formSection{
+    /*background-color: red;*/
+    width:65%;
+    float:left;
+}
+
+#CMSection{
+    background-color: green;
+    width:30%;
+    float:right;
+    min-height: 500px;
+}
+
+.formelement{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}

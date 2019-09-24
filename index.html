@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="javascript/ajax.js"></script>
+    <title>FullStackExample</title>
+</head>
+<body>
+    <!-- Top blue bar -->
+    <div id="header">
+        &nbsp;
+    </div>
+    <div id = "container">
+        <div id="formSection">
+            <form>
+                <div class="formelement">
+                    First Name: <br />
+                    <input type="text" name="txtFirst" id="txtFirst" /> <br/>
+                </div>
+                <div class="formelement">
+                    Last Name: <br/>
+                    <input type="text" name="txtLast" id="txtLast" /> <br/>
+                </div>
+                <div class="formelement">
+                    Comment Type: <br/>
+                    <select name="txtType" id="txtType">
+                        <option value="General Comment">General Comment</option>
+                        <option value="Student Complaint">Student Complaint</option>
+                    </select> <br/>
+                </div>
+                <div class="formelement">
+                    Comment: <br/>
+                    <textarea name="txtComment" id="txtComment" rows="10" cols="40">
+                    </textarea> <br/>
+                </div>
+                <div class="formelement">
+                    <button onclick="save()">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="CMSection">&nbsp;</div>
+    </div>
+</body>
+</html>
