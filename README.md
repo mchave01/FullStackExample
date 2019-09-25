@@ -6,3 +6,4 @@
     <li>Clone git onto server</li>
     <li>Add credentials file</li>
 </ol>
+<strong><p>*Make sure to include credentials file</p></strong>
