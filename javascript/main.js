@@ -3,11 +3,11 @@ function getData(){
     const lname = document.getElementById("txtLast").value;
     const tpy = document.getElementById("txtType").value;
     const cmt = document.getElementById("txtComment").value.trim();
-    let url = "../php/form.php?txtFirst=" + fname + "&txtLast=" + lname + "&txtType=" + tpy + "&txtComment=" + cmt;
-    const secCmt = document.getElementById("CMSection");
+    let str = "./php/form.php?txtFirst=" + fname + "&txtLast=" + lname + "&txtType=" + tpy + "&txtComment=" + cmt;
+    const seCmt = document.getElementById("CMSection");
 
-    fetch(url)
+    fetch(str)
         .then((res) => res.text())
-        .then((data) => secCmt.innerHTML = data)
+        .then((data) => seCmt.innerHTML = data)
         .catch((error) => console.log(error));
 }
