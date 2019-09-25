@@ -25,7 +25,7 @@ try {
     $stmt->execute();
 
     //select rows
-    $sql2 = "SELECT * FROM MC_COMMENTS";
+    $sql2 = "SELECT * FROM MC_COMMENTS ORDER BY CM_ID DESC";
     //$stmt = $con->prepare($sql2);
     //$stmt->execute();
 
