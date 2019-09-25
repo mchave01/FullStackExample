@@ -17,10 +17,6 @@ VALUES (DEFAULT, 'Jane', 'Doe', 'General Comment', 'Hence the name changed but s
 INSERT INTO MC_COMMENTS(CM_ID, CM_FNAME, CM_LNAME, CM_TYPE, CM_COMMENT)
 VALUES (DEFAULT, 'John', 'Doe', 'General Comment', 'Test');
 
-GRANT SELECT, INSERT, DELETE, UPDATE
-    ON MC_COMMENTS
-    TO testCloud@localhost
-    IDENTIFIED BY 'UApass30';
 
 
 
