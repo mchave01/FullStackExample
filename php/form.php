@@ -1,5 +1,4 @@
 <?php
-echo "This works";
 try {
     require("credentials.php");
     //Get variables from Post Method
